@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby "2.3.0"
 
 gem "autoprefixer-rails"
-gem "bourbon", "~> 4.2.0"
+gem "bourbon", "5.0.0.beta.3"
 gem "coffee-rails", "~> 4.1.0"
 gem "delayed_job_active_record"
 gem "flutie"
@@ -22,6 +22,7 @@ gem "sass-rails", "~> 5.0"
 gem "simple_form"
 gem "title"
 gem "uglifier"
+gem "haml", '~> 4.0'
 
 group :development do
   gem "quiet_assets"

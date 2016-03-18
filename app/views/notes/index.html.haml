@@ -1,0 +1,4 @@
+%h1= 'Notes'
+%ul{ class: 'notes' }
+  - @notes.each do |n|
+    %li= n.title
