@@ -1,4 +1,6 @@
 %h1= 'Notes'
+= link_to 'New note', new_note_path
 %ul{ class: 'notes' }
-  - @notes.each do |n|
-    %li= n.title
+  - @notes.each do |note|
+    %li{id: "row_#{note.id}"}
+      = link_to note.title, edit_note_path(note)

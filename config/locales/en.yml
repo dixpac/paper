@@ -17,3 +17,9 @@ en:
 
   titles:
     application: Paper
+
+  helpers:
+    submit:
+      notes:
+        create: 'Create'
+        update: 'Update'
